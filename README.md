@@ -1,3 +1,5 @@
+![Header](image/header.png)
+
 # discordjs-bot
 discordjs-bot Template
 
