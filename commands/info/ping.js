@@ -1,13 +1,14 @@
+// Specify packages here!
 const Discord = require("discord.js");
 
 module.exports = {
-    name: "ping",
-    aliases: ["ping", "pi"],
-    category: "info",
-    description: "Returns the bot ping time.",
-    usage: "ping",
-    dev: false,
-    run: async (client, message, args) => {
+    name: "ping", // name of the file without .js
+    aliases: ["ping", "pi"], //any aliases for the command
+    category: "info", // the directory the file is in; directory after /commands/
+    description: "Returns the bot ping time.", // description of the commands
+    usage: "ping", // simple usage of the commands
+    dev: false, // if its only meant for the owner/developer (Not working right now)
+    run: async (client, message, args) => {// specify the code after this line
 
       let ping = new Discord.MessageEmbed()
         .setTitle('Ping')
@@ -16,5 +17,5 @@ module.exports = {
       
       message.channel.send(ping)
   
-  }
-}
+  } // end async function
+} // end module.exports
