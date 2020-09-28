@@ -38,3 +38,8 @@ module.exports = {
   } // end async function
 } // end module.exports
 ```
+
+# Resources
+
+[Discord.js Docs](https://discord.js.org/)
+[Discord.js Guide](https://discordjs.guide/)
