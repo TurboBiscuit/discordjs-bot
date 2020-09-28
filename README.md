@@ -41,5 +41,5 @@ module.exports = {
 
 # Resources
 
-[Discord.js Docs](https://discord.js.org/)
-[Discord.js Guide](https://discordjs.guide/)
+- [Discord.js Docs](https://discord.js.org/)
+- [Discord.js Guide](https://discordjs.guide/)
